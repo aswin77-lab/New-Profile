@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teaching | Aswin K Anil</title>
+<meta name="description" content="Teaching at Wistora: Aswin K Anil's students and courses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="teaching">
+<canvas id="bg" aria-hidden="true"></canvas>
+<nav id="nav" aria-label="Main"></nav>
+<main>
+<div class="teach-hero">
+  <div class="page-head" style="margin:0">
+    <h1>Teaching at Wistora</h1>
+    <p class="lead">Alongside my developer role at Wistora IQ Solutions, I teach. I like showing students how real applications are built, not just how syntax works.</p>
+    <div class="btn-row"><a class="btn primary" href="contact.html">Ask about a course</a></div>
+  </div>
+  <div class="iso" aria-hidden="true">
+    <div class="stack3d">
+      <div class="layer">Python</div><div class="layer">Django</div><div class="layer">Databases</div><div class="layer">Projects</div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h2>What I teach</h2>
+  <div class="grid3">
+    <div class="card tilt"><h3>Python fundamentals</h3><p>Syntax, data structures, functions and problem solving, taught with small programs students can run right away.</p></div>
+    <div class="card tilt"><h3>Django web development</h3><p>Models, views, templates, authentication and REST APIs, building a complete app from scratch.</p></div>
+    <div class="card tilt"><h3>Intro to machine learning</h3><p>NumPy, Pandas and Scikit-learn basics, leading up to a first working model.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>My students</h2>
+  <p class="lead" style="margin-bottom:34px">The people I teach and the work they're doing.</p>
+  <div class="students" id="studentGrid"></div>
+  <dialog class="student-photo-dialog" id="studentPhotoDialog" aria-label="Student photo">
+    <button class="student-photo-close" type="button" aria-label="Close photo">&times;</button>
+    <img id="studentPhotoLarge" alt="">
+  </dialog>
+</section>
+</main>
+<footer id="footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

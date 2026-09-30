@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Aswin K Anil</title>
+<meta name="description" content="Contact Aswin K Anil.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+<canvas id="bg" aria-hidden="true"></canvas>
+<nav id="nav" aria-label="Main"></nav>
+<main>
+<div class="page-head">
+  <h1>Contact</h1>
+  <p class="lead">For a project, a course or a job opportunity, send me a message.</p>
+</div>
+<div class="contact">
+  <div class="c-list">
+    <a class="card c-row tilt" href="mailto:aswinkanil21@gmail.com"><span class="ico">&#9993;</span><span><small>Email</small><b>aswinkanil21@gmail.com</b></span></a>
+    <a class="card c-row tilt" href="tel:+917736671519"><span class="ico">&#9742;</span><span><small>Phone</small><b>+91 77366 71519</b></span></a>
+    <a class="card c-row tilt" href="https://github.com/aswin77-lab" target="_blank" rel="noopener"><span class="ico">&#128025;</span><span><small>GitHub</small><b>github.com/aswin77-lab</b></span></a>
+    <div class="card c-row tilt"><span class="ico">&#128205;</span><span><small>Location</small><b>Kerala, India</b></span></div>
+  </div>
+  <form class="card" id="contactForm">
+    <label>Your name<input name="name" required autocomplete="name"></label>
+    <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+    <label>Subject<input name="subject"></label>
+    <label>Message<textarea name="message" required></textarea></label>
+    <button class="btn primary" type="submit" style="justify-content:center">Send message</button>
+    <p class="muted" style="font-size:.9rem">This opens your email app with the message ready to send.</p>
+  </form>
+</div>
+</main>
+<footer id="footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

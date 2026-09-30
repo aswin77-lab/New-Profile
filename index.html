@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Aswin K Anil</title>
+<meta name="description" content="Aswin K Anil, Python and Django developer at Wistora IQ Solutions, teacher and freelancer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+<canvas id="bg" aria-hidden="true"></canvas>
+<nav id="nav" aria-label="Main"></nav>
+<main>
+<div class="hero">
+  <div>
+    <p class="hello">Hi, I'm</p>
+    <h1><span>Aswin</span><span class="l2">K Anil</span></h1>
+    <p class="role"><span id="typed"></span><span class="caret"></span></p>
+    <p class="lead" style="margin-top:18px">I build Django backends and REST APIs at Wistora IQ Solutions, teach Python and web development there, and deliver projects for students and clients on the side.</p>
+    <div class="btn-row">
+      <a class="btn primary" href="projects.html">See my projects</a>
+      <a class="btn" href="assets/Aswin_K_Anil_Resume.pdf" download>Download resume</a>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </div>
+  </div>
+  <div class="stage">
+    <div class="portrait tilt" id="portrait" data-tilt="0">
+      <div class="frame"><img src="assets/aswin.jpg" alt="Portrait of Aswin K Anil reading a book"></div>
+      <span class="chip c1">Python</span>
+      <span class="chip c2">Django</span>
+      <span class="chip c3">Teaching</span>
+      <span class="chip c4">Machine Learning</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h2>What I do</h2>
+  <p class="lead" style="margin-bottom:34px">Three parts of my work, each with its own page.</p>
+  <div class="grid3">
+    <a class="card tilt" href="experience.html"><div class="ico">&#9881;</div><h3>Build software</h3><p>Python developer at Wistora IQ Solutions, working on Django web applications and REST APIs for real clients.</p><span class="go">See my experience</span></a>
+    <a class="card tilt" href="teaching.html"><div class="ico">&#127891;</div><h3>Teach</h3><p>I also teach at Wistora, helping students learn Python, Django and the habits of a working developer.</p><span class="go">Meet my students</span></a>
+    <a class="card tilt" href="projects.html"><div class="ico">&#128640;</div><h3>Deliver projects</h3><p>Freelance work for clients and students, plus academic projects in machine learning and web development.</p><span class="go">Browse <span id="projCount">10</span> projects</span></a>
+  </div>
+</section>
+
+<section>
+  <div class="cube-wrap">
+    <div>
+      <h2>My stack, in the round</h2>
+      <p class="lead">Drag the cube to look at every side. Python and Django are my daily tools; JavaScript, Java and React are the ones I'm still growing into.</p>
+      <div class="pills"><span class="pill hl">Python</span><span class="pill hl">Django</span><span class="pill">MySQL</span><span class="pill">PostgreSQL</span><span class="pill">Git</span><span class="pill">TensorFlow</span></div>
+    </div>
+    <div><div class="scene" id="scene" aria-label="Interactive skills cube"><div class="cube"></div></div><p class="hint">Drag to rotate</p></div>
+  </div>
+</section>
+
+<section class="card cta">
+  <h2>Have a project or want to learn Python?</h2>
+  <p class="lead" style="margin:0 auto">Tell me what you're working on and I'll get back to you.</p>
+  <div class="btn-row" style="justify-content:center"><a class="btn primary" href="contact.html">Send a message</a></div>
+</section>
+</main>
+<footer id="footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
